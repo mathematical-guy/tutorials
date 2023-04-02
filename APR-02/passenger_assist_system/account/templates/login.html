@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>This is a login page {{ name }}</h1>
+    {% if myvar == 1 %}
+        <h1>Hello!</h1>
+    {% elif myvar == 2 %}
+        <h1>Welcome!</h1>
+    {% else %}
+        <h1>Greetings!</h1>
+        <h1> {{ myvar }}</h1>
+    {% endif %}
+
+    {{ now }}
+
+    {{ greet }}
+
+</html>
